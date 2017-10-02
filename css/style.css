@@ -1,0 +1,63 @@
+/*BASE*/
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: #fff;
+}
+header{
+	background-color: #fefefe;
+}
+a{
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+	font-size: 11px;
+	color: #0e57a1;
+}
+h1{
+	font-family: 'Museo 700', sans-serif;
+	font-size: 36px;
+}
+/*PROJECT*/
+/*--header--*/
+.header_container{
+	width: 990px;
+	padding: 0 2px 15px 32px;
+	margin: 0 auto;
+}
+.header_container_logo{
+	cursor: default;
+	float: left;
+	padding-top: 53px;
+}
+.logo img{
+	margin-bottom: 4px;
+	margin-right: 4px;
+}
+.logo h1{
+	display: inline;
+}
+.header_container_nav{
+	float: right;
+	padding-top: 63px;
+}
+.header_container_nav div{
+	display: inline;
+	text-transform: uppercase;
+}
+.header_container_nav a{
+	line-height: 0;
+	font-family: 'Signika Negative', sans-serif;
+	text-transform: uppercase;
+	padding: 55px 30px 0 30px;
+}
+
+.clearfix:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+
+.header_container_nav a:active{
+	border-top: 12px solid #0e57a1;
+}
