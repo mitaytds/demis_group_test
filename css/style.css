@@ -319,6 +319,87 @@ button{
 	color: #fff;
 	text-decoration: none;
 }
+/*--what people say--*/
+.w_p_s h3{
+	width: 960px;
+	margin: 34px auto 34px auto;
+}
+.w-p-s_bg{
+	width: 100%;
+	background-color: #f1f1f1;
+}
+.w-p-s_content{
+	width: 1060px;
+	margin: 0 auto;
+}
+.carousel_hidden{
+	width: 949px;
+	overflow: hidden;
+	float: left;
+	padding: 20px 0 20px 0;
+	z-index: 999;
+}
+.carousel{
+	position: relative;
+	list-style: none;
+	width: 1000000px;
+	
+}
+.carousel_arrow{
+	width: 50px;
+	cursor: pointer;
+	margin-top: 60px;
+	text-align: center;
+}
+.arrow_left{
+	display: block;
+	float: left;
+}
+.arrow_right{
+	display: block;
+	float: right;
+}
+.carousel_item{
+	display: block;
+	float: left;
+	width: 240px;
+}
+.item_text{
+	width: 237px;
+	height: 178px;
+	background-image: url("../images/cloud-text.png");
+	background-repeat: no-repeat;
+	padding-top: 1px;
+}
+.item_text p{
+	margin: 15px 15px 0 15px;
+}
+.item_text span{
+	font-family: 'Open Sans',sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	color: #001e3c;
+}
+.item_person{
+	position: relative;
+	margin-top: 8px;
+	margin-left: 22px;
+}
+.item_person img{
+	border: 3px solid #0e57a1;
+}
+.item_person span{
+	position: absolute;
+	left: 90px;
+	top: 30px;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: bolder;
+	font-size: 12px;
+	color: #0e57a1;
+}
+
+
+
 
 .titles_gaps{
 	padding: 0 15px 0 15px;
