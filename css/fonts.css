@@ -1,8 +1,10 @@
 @font-face{
 	font-family: 'Museo 700';
-	src: url("../fonts/exljbris - Museo-700.otf");
+	src: url("../fonts/museo 700/exljbris - Museo-700.eot");
+	src: url("../fonts/museo 700/exljbris - Museo-700.ttf");
 }
 @font-face{
 	font-family: 'TektonPro';
-	src: url("../fonts/TektonPro-BoldCond.otf");
+	src: url("../fonts/TektonPro/TektonPro-BoldCond.eot");
+	src: url("../fonts/TektonPro/TektonPro-BoldCond.ttf");
 }
